@@ -1,0 +1,1 @@
+{"version":3,"file":"foo.cjs","sources":["../src/foo.js"],"sourcesContent":["\nexport const shallowClone = (obj) => {\n  return {...obj}\n}\n"],"names":["shallowClone","obj"],"mappings":";;;;;;;;;;;;;;;;;;AACaA,MAAAA,YAAY,GAAIC,GAAD,IAAS;AACnC,EAAA,OAAA,QAAA,CAAA,EAAA,EAAWA,GAAX,CAAA,CAAA;AACD;;;;"}

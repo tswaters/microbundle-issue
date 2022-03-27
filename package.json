@@ -1,0 +1,23 @@
+{
+  "name": "microbundle-test",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.14.2"
+  },
+  "type": "module",
+  "source": "src/foo.js",
+  "exports": {
+    "require": "./dist/foo.cjs",
+    "default": "./dist/foo.modern.js"
+  },
+  "main": "./dist/foo.cjs",
+  "module": "./dist/foo.module.js",
+  "unpkg": "./dist/foo.umd.js",
+  "scripts": {
+    "start": "microbundle --no-compress --target node"
+  }
+}
