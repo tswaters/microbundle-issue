@@ -21,7 +21,7 @@
     return _extends.apply(this, arguments);
   }
 
-  const shallowClone = obj => {
+  var shallowClone = function shallowClone(obj) {
     return _extends({}, obj);
   };
 

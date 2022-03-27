@@ -18,6 +18,6 @@
   "module": "./dist/foo.module.js",
   "unpkg": "./dist/foo.umd.js",
   "scripts": {
-    "start": "microbundle --no-compress --target node"
+    "start": "microbundle --no-compress"
   }
 }
