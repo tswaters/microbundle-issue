@@ -19,5 +19,8 @@
   "unpkg": "./dist/foo.umd.js",
   "scripts": {
     "start": "microbundle --no-compress"
-  }
+  },
+  "browserslist": [
+    "node 16"
+  ]
 }
