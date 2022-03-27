@@ -18,7 +18,7 @@
   "module": "./dist/foo.module.js",
   "unpkg": "./dist/foo.umd.js",
   "scripts": {
-    "start": "microbundle --no-compress"
+    "start": "microbundle --no-compress --format umd,cjs,esm"
   },
   "browserslist": [
     "node 16"
